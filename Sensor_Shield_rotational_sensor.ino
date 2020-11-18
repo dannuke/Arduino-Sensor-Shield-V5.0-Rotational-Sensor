@@ -3,12 +3,12 @@
 //Arduino Sensor Shield is used with a rotational sensor and digital LED
 //Arduino Sensor Shield does not require a library
 // introducing the const int code: declaration of a constant
-//equipment: Analog Rotation Sensor DFR 0058, Digital LED, Arduino, IDE serial monitor. Breadboard optional
-//direct connect to the Arduino
-
+//equipment: Analog Rotation Sensor DFR 0058, Digital LED, Arduino, IDE serial monitor.
+//Sensor Shiled direct connect to the Arduino
 //connect the rotational sensor leads G for ground, V for voltage and S for signal A0
 //in the same block connect the digital LED G for ground, V for voltage and S for signal A5
 //by rotating the  potentiometer, the LED will fade or get bright. Also, see the affect using the serial monitor
+//Rotational values : 0 to 1023
 // if a breadboard is used, connect the 5 volts and GND , for the sensor,  with leads to the breadboard rail, and the 3.3 volts  and GND for the LED to the otherside rails of the breaboard.
 //reference https://wiki.dfrobot.com/Analog_Rotation_Sensor_V2__SKU__DFR0058_
 
